@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  # clash
+  clash:
+    image: dreamacro/clash
+    #container_name: clash
+    volumes:
+      - ./clash_config.yaml:/root/.config/clash/config.yaml
+    ports:
+       - "9091:9090" # 控制api端口
+       - "7890:7890"
+    restart: always
+
+  # 比较好看的图形界面
+  yacd:
+    image: haishanh/yacd
+    #container_name: yacd
+    ports:
+      - "1234:80"
+    restart: always
+
