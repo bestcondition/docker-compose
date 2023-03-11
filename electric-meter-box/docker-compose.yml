@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  emb:
+    image: bestcondition/emb
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
