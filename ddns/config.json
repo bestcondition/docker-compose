@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "token": "",
+  "dns": "dnspod",
+  "ipv6": ["ipv6.example.com"],
+  "index6": "public",
+  "ttl": 600,
+  "debug": true
+}
+

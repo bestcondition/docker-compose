@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  ddns:
+    image: newfuture/ddns
+    restart: always
+    volumes:
+      - ./config.json:/config.json
+    network_mode: "host"
+
