@@ -3,5 +3,4 @@ services:
   sakura1:
     image: natfrp/frpc:latest
     restart: always
-    command: "-f balabala from natfrp.com"
-
+    command: "-f ${frp_code}"
