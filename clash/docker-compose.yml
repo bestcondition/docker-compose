@@ -8,8 +8,8 @@ services:
     volumes:
       - ./config.yaml:/root/.config/clash/config.yaml
     ports:
-       - "9090:9090" # 控制api端口
-       - "7890:7890"
+       - "${CLASH_CONTROL_PORT}:9090" # 控制api端口
+       - "${CLASH_PORT}:7890"
     restart: always
 
   # 比较好看的图形界面

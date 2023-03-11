@@ -7,3 +7,8 @@
 ## 注意
 - 别忘了clash开启lan, 连接不了首先看看是不是没allow lan
 
+## .env
+```shell
+CLASH_CONTROL_PORT='192.168.1.2:9090'
+CLASH_PORT='127.0.0.1:7890'
+```
