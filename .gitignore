@@ -4,3 +4,4 @@ server-files
 *.db
 config.*
 __pycache__
+data

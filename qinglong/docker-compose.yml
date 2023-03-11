@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  qinglong:
+    image: whyour/qinglong
+    volumes:
+      - ./data:/ql/data
+    ports:
+      - "${QINGLONG_PORT}:5700"
+    env_file:
+      - .env
+    restart: unless-stopped
+
