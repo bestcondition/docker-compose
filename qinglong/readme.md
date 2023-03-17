@@ -1,6 +1,9 @@
 ## 仓库
 https://github.com/shufflewzc/faker3
 
+## .env
+NO_PROXY='localhost,172.0.0.1'
+
 ## 依赖
 nodejs
 ```
