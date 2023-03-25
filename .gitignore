@@ -7,6 +7,4 @@ __pycache__
 data
 .idea
 *.bak
-*.conf
-crt
-key
+nginx
