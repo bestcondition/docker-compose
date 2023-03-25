@@ -5,3 +5,8 @@ server-files
 config.*
 __pycache__
 data
+.idea
+*.bak
+*.conf
+crt
+key
